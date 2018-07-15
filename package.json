@@ -1,7 +1,7 @@
 {
   "name": "language-isabelle",
   "version": "0.0.0",
-  "description": "Provides syntax highlighting for Isabelle theory files",
+  "description": "Provides syntax highlighting and symbol rendering for Isabelle theory files",
   "keywords": [
   ],
   "repository": "https://github.com/aca13jmf/language-isabelle",
