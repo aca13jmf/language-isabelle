@@ -1,10 +1,10 @@
 {
   "name": "language-isabelle",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Provides syntax highlighting for Isabelle theory files",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/language-isabelle",
+  "repository": "https://github.com/aca13jmf/language-isabelle",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

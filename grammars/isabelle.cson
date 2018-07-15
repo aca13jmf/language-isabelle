@@ -70,18 +70,9 @@ patterns: [
     name: "invalid.illegal.abandon-proof"
   }
   {
-    begin: "\""
-    end: "\""
+    begin: "''"
+    end: "''"
     name: "string"
-  }
-  {
-    begin: "`"
-    end: "`"
-    name: "string"
-  }
-  {
-    match: "\\??'?([^\\W\\d]|\\\\<\\w+\\>)([.\\w\\']|\\\\<\\w+\\>)*"
-    name: "variable.other"
   }
   {
     match: "::|:|\\(|\\)|\\[|\\]|_|\\=|\\,|\\+|\\-|\\!|\\?|\\|"
@@ -98,6 +89,1548 @@ patterns: [
   {
     match: "[0-9]+"
     name: "constant.numeric"
+  }
+
+# Symbols
+  {
+    match: "\\\\<zero>"
+    name: "zero.symbol"
+  }
+  {
+    match: "\\\\<one>"
+    name: "one.symbol"
+  }
+  {
+    match: "\\\\<two>"
+    name: "two.symbol"
+  }
+  {
+    match: "\\\\<three>"
+    name: "three.symbol"
+  }
+  {
+    match: "\\\\<four>"
+    name: "four.symbol"
+  }
+  {
+    match: "\\\\<five>"
+    name: "five.symbol"
+  }
+  {
+    match: "\\\\<six>"
+    name: "six.symbol"
+  }
+  {
+    match: "\\\\<seven>"
+    name: "seven.symbol"
+  }
+  {
+    match: "\\\\<eight>"
+    name: "eight.symbol"
+  }
+  {
+    match: "\\\\<nine>"
+    name: "nine.symbol"
+  }
+  {
+    match: "\\\\<A>"
+    name: "A.symbol"
+  }
+  {
+    match: "\\\\<B>"
+    name: "B.symbol"
+  }
+  {
+    match: "\\\\<C>"
+    name: "C.symbol"
+  }
+  {
+    match: "\\\\<D>"
+    name: "D.symbol"
+  }
+  {
+    match: "\\\\<E>"
+    name: "E.symbol"
+  }
+  {
+    match: "\\\\<F>"
+    name: "F.symbol"
+  }
+  {
+    match: "\\\\<G>"
+    name: "G.symbol"
+  }
+  {
+    match: "\\\\<H>"
+    name: "H.symbol"
+  }
+  {
+    match: "\\\\<I>"
+    name: "I.symbol"
+  }
+  {
+    match: "\\\\<J>"
+    name: "J.symbol"
+  }
+  {
+    match: "\\\\<K>"
+    name: "K.symbol"
+  }
+  {
+    match: "\\\\<L>"
+    name: "L.symbol"
+  }
+  {
+    match: "\\\\<M>"
+    name: "M.symbol"
+  }
+  {
+    match: "\\\\<N>"
+    name: "N.symbol"
+  }
+  {
+    match: "\\\\<O>"
+    name: "O.symbol"
+  }
+  {
+    match: "\\\\<P>"
+    name: "P.symbol"
+  }
+  {
+    match: "\\\\<Q>"
+    name: "Q.symbol"
+  }
+  {
+    match: "\\\\<R>"
+    name: "R.symbol"
+  }
+  {
+    match: "\\\\<S>"
+    name: "S.symbol"
+  }
+  {
+    match: "\\\\<T>"
+    name: "T.symbol"
+  }
+  {
+    match: "\\\\<U>"
+    name: "U.symbol"
+  }
+  {
+    match: "\\\\<V>"
+    name: "V.symbol"
+  }
+  {
+    match: "\\\\<W>"
+    name: "W.symbol"
+  }
+  {
+    match: "\\\\<X>"
+    name: "X.symbol"
+  }
+  {
+    match: "\\\\<Y>"
+    name: "Y.symbol"
+  }
+  {
+    match: "\\\\<Z>"
+    name: "Z.symbol"
+  }
+  {
+    match: "\\\\<a>"
+    name: "a.symbol"
+  }
+  {
+    match: "\\\\<b>"
+    name: "b.symbol"
+  }
+  {
+    match: "\\\\<c>"
+    name: "c.symbol"
+  }
+  {
+    match: "\\\\<d>"
+    name: "d.symbol"
+  }
+  {
+    match: "\\\\<e>"
+    name: "e.symbol"
+  }
+  {
+    match: "\\\\<f>"
+    name: "f.symbol"
+  }
+  {
+    match: "\\\\<g>"
+    name: "g.symbol"
+  }
+  {
+    match: "\\\\<h>"
+    name: "h.symbol"
+  }
+  {
+    match: "\\\\<i>"
+    name: "i.symbol"
+  }
+  {
+    match: "\\\\<j>"
+    name: "j.symbol"
+  }
+  {
+    match: "\\\\<k>"
+    name: "k.symbol"
+  }
+  {
+    match: "\\\\<l>"
+    name: "l.symbol"
+  }
+  {
+    match: "\\\\<m>"
+    name: "m.symbol"
+  }
+  {
+    match: "\\\\<n>"
+    name: "n.symbol"
+  }
+  {
+    match: "\\\\<o>"
+    name: "o.symbol"
+  }
+  {
+    match: "\\\\<p>"
+    name: "p.symbol"
+  }
+  {
+    match: "\\\\<q>"
+    name: "q.symbol"
+  }
+  {
+    match: "\\\\<r>"
+    name: "r.symbol"
+  }
+  {
+    match: "\\\\<s>"
+    name: "s.symbol"
+  }
+  {
+    match: "\\\\<t>"
+    name: "t.symbol"
+  }
+  {
+    match: "\\\\<u>"
+    name: "u.symbol"
+  }
+  {
+    match: "\\\\<v>"
+    name: "v.symbol"
+  }
+  {
+    match: "\\\\<w>"
+    name: "w.symbol"
+  }
+  {
+    match: "\\\\<x>"
+    name: "x.symbol"
+  }
+  {
+    match: "\\\\<y>"
+    name: "y.symbol"
+  }
+  {
+    match: "\\\\<z>"
+    name: "z.symbol"
+  }
+  {
+    match: "\\\\<AA>"
+    name: "AA.symbol"
+  }
+  {
+    match: "\\\\<BB>"
+    name: "BB.symbol"
+  }
+  {
+    match: "\\\\<CC>"
+    name: "CC.symbol"
+  }
+  {
+    match: "\\\\<DD>"
+    name: "DD.symbol"
+  }
+  {
+    match: "\\\\<EE>"
+    name: "EE.symbol"
+  }
+  {
+    match: "\\\\<FF>"
+    name: "FF.symbol"
+  }
+  {
+    match: "\\\\<GG>"
+    name: "GG.symbol"
+  }
+  {
+    match: "\\\\<HH>"
+    name: "HH.symbol"
+  }
+  {
+    match: "\\\\<II>"
+    name: "II.symbol"
+  }
+  {
+    match: "\\\\<JJ>"
+    name: "JJ.symbol"
+  }
+  {
+    match: "\\\\<KK>"
+    name: "KK.symbol"
+  }
+  {
+    match: "\\\\<LL>"
+    name: "LL.symbol"
+  }
+  {
+    match: "\\\\<MM>"
+    name: "MM.symbol"
+  }
+  {
+    match: "\\\\<NN>"
+    name: "NN.symbol"
+  }
+  {
+    match: "\\\\<OO>"
+    name: "OO.symbol"
+  }
+  {
+    match: "\\\\<PP>"
+    name: "PP.symbol"
+  }
+  {
+    match: "\\\\<QQ>"
+    name: "QQ.symbol"
+  }
+  {
+    match: "\\\\<RR>"
+    name: "RR.symbol"
+  }
+  {
+    match: "\\\\<SS>"
+    name: "SS.symbol"
+  }
+  {
+    match: "\\\\<TT>"
+    name: "TT.symbol"
+  }
+  {
+    match: "\\\\<UU>"
+    name: "UU.symbol"
+  }
+  {
+    match: "\\\\<VV>"
+    name: "VV.symbol"
+  }
+  {
+    match: "\\\\<WW>"
+    name: "WW.symbol"
+  }
+  {
+    match: "\\\\<XX>"
+    name: "XX.symbol"
+  }
+  {
+    match: "\\\\<YY>"
+    name: "YY.symbol"
+  }
+  {
+    match: "\\\\<ZZ>"
+    name: "ZZ.symbol"
+  }
+  {
+    match: "\\\\<aa>"
+    name: "aa.symbol"
+  }
+  {
+    match: "\\\\<bb>"
+    name: "bb.symbol"
+  }
+  {
+    match: "\\\\<cc>"
+    name: "cc.symbol"
+  }
+  {
+    match: "\\\\<dd>"
+    name: "dd.symbol"
+  }
+  {
+    match: "\\\\<ee>"
+    name: "ee.symbol"
+  }
+  {
+    match: "\\\\<ff>"
+    name: "ff.symbol"
+  }
+  {
+    match: "\\\\<gg>"
+    name: "gg.symbol"
+  }
+  {
+    match: "\\\\<hh>"
+    name: "hh.symbol"
+  }
+  {
+    match: "\\\\<ii>"
+    name: "ii.symbol"
+  }
+  {
+    match: "\\\\<jj>"
+    name: "jj.symbol"
+  }
+  {
+    match: "\\\\<kk>"
+    name: "kk.symbol"
+  }
+  {
+    match: "\\\\<ll>"
+    name: "ll.symbol"
+  }
+  {
+    match: "\\\\<mm>"
+    name: "mm.symbol"
+  }
+  {
+    match: "\\\\<nn>"
+    name: "nn.symbol"
+  }
+  {
+    match: "\\\\<oo>"
+    name: "oo.symbol"
+  }
+  {
+    match: "\\\\<pp>"
+    name: "pp.symbol"
+  }
+  {
+    match: "\\\\<qq>"
+    name: "qq.symbol"
+  }
+  {
+    match: "\\\\<rr>"
+    name: "rr.symbol"
+  }
+  {
+    match: "\\\\<ss>"
+    name: "ss.symbol"
+  }
+  {
+    match: "\\\\<tt>"
+    name: "tt.symbol"
+  }
+  {
+    match: "\\\\<uu>"
+    name: "uu.symbol"
+  }
+  {
+    match: "\\\\<vv>"
+    name: "vv.symbol"
+  }
+  {
+    match: "\\\\<ww>"
+    name: "ww.symbol"
+  }
+  {
+    match: "\\\\<xx>"
+    name: "xx.symbol"
+  }
+  {
+    match: "\\\\<yy>"
+    name: "yy.symbol"
+  }
+  {
+    match: "\\\\<zz>"
+    name: "zz.symbol"
+  }
+  {
+    match: "\\\\<alpha>"
+    name: "alpha.symbol"
+  }
+  {
+    match: "\\\\<beta>"
+    name: "beta.symbol"
+  }
+  {
+    match: "\\\\<gamma>"
+    name: "gamma.symbol"
+  }
+  {
+    match: "\\\\<delta>"
+    name: "delta.symbol"
+  }
+  {
+    match: "\\\\<epsilon>"
+    name: "epsilon.symbol"
+  }
+  {
+    match: "\\\\<zeta>"
+    name: "zeta.symbol"
+  }
+  {
+    match: "\\\\<eta>"
+    name: "eta.symbol"
+  }
+  {
+    match: "\\\\<theta>"
+    name: "theta.symbol"
+  }
+  {
+    match: "\\\\<iota>"
+    name: "iota.symbol"
+  }
+  {
+    match: "\\\\<kappa>"
+    name: "kappa.symbol"
+  }
+  {
+    match: "\\\\<lambda>"
+    name: "lambda.symbol"
+  }
+  {
+    match: "\\\\<mu>"
+    name: "mu.symbol"
+  }
+  {
+    match: "\\\\<nu>"
+    name: "nu.symbol"
+  }
+  {
+    match: "\\\\<xi>"
+    name: "xi.symbol"
+  }
+  {
+    match: "\\\\<pi>"
+    name: "pi.symbol"
+  }
+  {
+    match: "\\\\<rho>"
+    name: "rho.symbol"
+  }
+  {
+    match: "\\\\<sigma>"
+    name: "sigma.symbol"
+  }
+  {
+    match: "\\\\<tau>"
+    name: "tau.symbol"
+  }
+  {
+    match: "\\\\<upsilon>"
+    name: "upsilon.symbol"
+  }
+  {
+    match: "\\\\<phi>"
+    name: "phi.symbol"
+  }
+  {
+    match: "\\\\<chi>"
+    name: "chi.symbol"
+  }
+  {
+    match: "\\\\<psi>"
+    name: "psi.symbol"
+  }
+  {
+    match: "\\\\<omega>"
+    name: "omega.symbol"
+  }
+  {
+    match: "\\\\<Gamma>"
+    name: "Gamma.symbol"
+  }
+  {
+    match: "\\\\<Delta>"
+    name: "Delta.symbol"
+  }
+  {
+    match: "\\\\<Theta>"
+    name: "Theta.symbol"
+  }
+  {
+    match: "\\\\<Lambda>"
+    name: "Lambda.symbol"
+  }
+  {
+    match: "\\\\<Xi>"
+    name: "Xi.symbol"
+  }
+  {
+    match: "\\\\<Pi>"
+    name: "Pi.symbol"
+  }
+  {
+    match: "\\\\<Sigma>"
+    name: "Sigma.symbol"
+  }
+  {
+    match: "\\\\<Upsilon>"
+    name: "Upsilon.symbol"
+  }
+  {
+    match: "\\\\<Phi>"
+    name: "Phi.symbol"
+  }
+  {
+    match: "\\\\<Psi>"
+    name: "Psi.symbol"
+  }
+  {
+    match: "\\\\<Omega>"
+    name: "Omega.symbol"
+  }
+  {
+    match: "\\\\<bool>"
+    name: "bool.symbol"
+  }
+  {
+    match: "\\\\<complex>"
+    name: "complex.symbol"
+  }
+  {
+    match: "\\\\<nat>"
+    name: "nat.symbol"
+  }
+  {
+    match: "\\\\<rat>"
+    name: "rat.symbol"
+  }
+  {
+    match: "\\\\<real>"
+    name: "real.symbol"
+  }
+  {
+    match: "\\\\<int>"
+    name: "int.symbol"
+  }
+  {
+    match: "\\\\<leftarrow>"
+    name: "leftarrow.symbol"
+  }
+  {
+    match: "\\\\<longleftarrow>"
+    name: "longleftarrow.symbol"
+  }
+  {
+    match: "\\\\<longlongleftarrow>"
+    name: "longlongleftarrow.symbol"
+  }
+  {
+    match: "\\\\<longlonglongleftarrow>"
+    name: "longlonglongleftarrow.symbol"
+  }
+  {
+    match: "\\\\<rightarrow>"
+    name: "rightarrow.symbol"
+  }
+  {
+    match: "\\\\<longrightarrow>"
+    name: "longrightarrow.symbol"
+  }
+  {
+    match: "\\\\<longlongrightarrow>"
+    name: "longlongrightarrow.symbol"
+  }
+  {
+    match: "\\\\<longlonglongrightarrow>"
+    name: "longlonglongrightarrow.symbol"
+  }
+  {
+    match: "\\\\<Leftarrow>"
+    name: "Leftarrow.symbol"
+  }
+  {
+    match: "\\\\<Longleftarrow>"
+    name: "Longleftarrow.symbol"
+  }
+  {
+    match: "\\\\<Lleftarrow>"
+    name: "Lleftarrow.symbol"
+  }
+  {
+    match: "\\\\<Rightarrow>"
+    name: "Rightarrow.symbol"
+  }
+  {
+    match: "\\\\<Longrightarrow>"
+    name: "Longrightarrow.symbol"
+  }
+  {
+    match: "\\\\<Rrightarrow>"
+    name: "Rrightarrow.symbol"
+  }
+  {
+    match: "\\\\<leftrightarrow>"
+    name: "leftrightarrow.symbol"
+  }
+  {
+    match: "\\\\<longleftrightarrow>"
+    name: "longleftrightarrow.symbol"
+  }
+  {
+    match: "\\\\<Leftrightarrow>"
+    name: "Leftrightarrow.symbol"
+  }
+  {
+    match: "\\\\<Longleftrightarrow>"
+    name: "Longleftrightarrow.symbol"
+  }
+  {
+    match: "\\\\<mapsto>"
+    name: "mapsto.symbol"
+  }
+  {
+    match: "\\\\<longmapsto>"
+    name: "longmapsto.symbol"
+  }
+  {
+    match: "\\\\<midarrow>"
+    name: "midarrow.symbol"
+  }
+  {
+    match: "\\\\<Midarrow>"
+    name: "Midarrow.symbol"
+  }
+  {
+    match: "\\\\<hookleftarrow>"
+    name: "hookleftarrow.symbol"
+  }
+  {
+    match: "\\\\<hookrightarrow>"
+    name: "hookrightarrow.symbol"
+  }
+  {
+    match: "\\\\<leftharpoondown>"
+    name: "leftharpoondown.symbol"
+  }
+  {
+    match: "\\\\<rightharpoondown>"
+    name: "rightharpoondown.symbol"
+  }
+  {
+    match: "\\\\<leftharpoonup>"
+    name: "leftharpoonup.symbol"
+  }
+  {
+    match: "\\\\<rightharpoonup>"
+    name: "rightharpoonup.symbol"
+  }
+  {
+    match: "\\\\<rightleftharpoons>"
+    name: "rightleftharpoons.symbol"
+  }
+  {
+    match: "\\\\<leadsto>"
+    name: "leadsto.symbol"
+  }
+  {
+    match: "\\\\<downharpoonleft>"
+    name: "downharpoonleft.symbol"
+  }
+  {
+    match: "\\\\<downharpoonright>"
+    name: "downharpoonright.symbol"
+  }
+  {
+    match: "\\\\<upharpoonleft>"
+    name: "upharpoonleft.symbol"
+  }
+  {
+    match: "\\\\<restriction>"
+    name: "restriction.symbol"
+  }
+  {
+    match: "\\\\<Colon>"
+    name: "Colon.symbol"
+  }
+  {
+    match: "\\\\<up>"
+    name: "up.symbol"
+  }
+  {
+    match: "\\\\<Up>"
+    name: "Up.symbol"
+  }
+  {
+    match: "\\\\<down>"
+    name: "down.symbol"
+  }
+  {
+    match: "\\\\<Down>"
+    name: "Down.symbol"
+  }
+  {
+    match: "\\\\<updown>"
+    name: "updown.symbol"
+  }
+  {
+    match: "\\\\<Updown>"
+    name: "Updown.symbol"
+  }
+  {
+    match: "\\\\<langle>"
+    name: "langle.symbol"
+  }
+  {
+    match: "\\\\<rangle>"
+    name: "rangle.symbol"
+  }
+  {
+    match: "\\\\<lceil>"
+    name: "lceil.symbol"
+  }
+  {
+    match: "\\\\<rceil>"
+    name: "rceil.symbol"
+  }
+  {
+    match: "\\\\<lfloor>"
+    name: "lfloor.symbol"
+  }
+  {
+    match: "\\\\<rfloor>"
+    name: "rfloor.symbol"
+  }
+  {
+    match: "\\\\<lparr>"
+    name: "lparr.symbol"
+  }
+  {
+    match: "\\\\<rparr>"
+    name: "rparr.symbol"
+  }
+  {
+    match: "\\\\<lbrakk>"
+    name: "lbrakk.symbol"
+  }
+  {
+    match: "\\\\<rbrakk>"
+    name: "rbrakk.symbol"
+  }
+  {
+    match: "\\\\<lbrace>"
+    name: "lbrace.symbol"
+  }
+  {
+    match: "\\\\<rbrace>"
+    name: "rbrace.symbol"
+  }
+  {
+    match: "\\\\<guillemotleft>"
+    name: "guillemotleft.symbol"
+  }
+  {
+    match: "\\\\<guillemotright>"
+    name: "guillemotright.symbol"
+  }
+  {
+    match: "\\\\<bottom>"
+    name: "bottom.symbol"
+  }
+  {
+    match: "\\\\<top>"
+    name: "top.symbol"
+  }
+  {
+    match: "\\\\<and>"
+    name: "and.symbol"
+  }
+  {
+    match: "\\\\<And>"
+    name: "And.symbol"
+  }
+  {
+    match: "\\\\<or>"
+    name: "or.symbol"
+  }
+  {
+    match: "\\\\<Or>"
+    name: "Or.symbol"
+  }
+  {
+    match: "\\\\<forall>"
+    name: "forall.symbol"
+  }
+  {
+    match: "\\\\<exists>"
+    name: "exists.symbol"
+  }
+  {
+    match: "\\\\<nexists>"
+    name: "nexists.symbol"
+  }
+  {
+    match: "\\\\<not>"
+    name: "not.symbol"
+  }
+  {
+    match: "\\\\<circle>"
+    name: "circle.symbol"
+  }
+  {
+    match: "\\\\<box>"
+    name: "box.symbol"
+  }
+  {
+    match: "\\\\<diamond>"
+    name: "diamond.symbol"
+  }
+  {
+    match: "\\\\<diamondop>"
+    name: "diamondop.symbol"
+  }
+  {
+    match: "\\\\<turnstile>"
+    name: "turnstile.symbol"
+  }
+  {
+    match: "\\\\<Turnstile>"
+    name: "Turnstile.symbol"
+  }
+  {
+    match: "\\\\<tturnstile>"
+    name: "tturnstile.symbol"
+  }
+  {
+    match: "\\\\<TTurnstile>"
+    name: "TTurnstile.symbol"
+  }
+  {
+    match: "\\\\<stileturn>"
+    name: "stileturn.symbol"
+  }
+  {
+    match: "\\\\<surd>"
+    name: "surd.symbol"
+  }
+  {
+    match: "\\\\<le>"
+    name: "le.symbol"
+  }
+  {
+    match: "\\\\<ge>"
+    name: "ge.symbol"
+  }
+  {
+    match: "\\\\<lless>"
+    name: "lless.symbol"
+  }
+  {
+    match: "\\\\<ggreater>"
+    name: "ggreater.symbol"
+  }
+  {
+    match: "\\\\<lesssim>"
+    name: "lesssim.symbol"
+  }
+  {
+    match: "\\\\<greatersim>"
+    name: "greatersim.symbol"
+  }
+  {
+    match: "\\\\<lessapprox>"
+    name: "lessapprox.symbol"
+  }
+  {
+    match: "\\\\<greaterapprox>"
+    name: "greaterapprox.symbol"
+  }
+  {
+    match: "\\\\<in>"
+    name: "in.symbol"
+  }
+  {
+    match: "\\\\<notin>"
+    name: "notin.symbol"
+  }
+  {
+    match: "\\\\<subset>"
+    name: "subset.symbol"
+  }
+  {
+    match: "\\\\<supset>"
+    name: "supset.symbol"
+  }
+  {
+    match: "\\\\<subseteq>"
+    name: "subseteq.symbol"
+  }
+  {
+    match: "\\\\<supseteq>"
+    name: "supseteq.symbol"
+  }
+  {
+    match: "\\\\<sqsubset>"
+    name: "sqsubset.symbol"
+  }
+  {
+    match: "\\\\<sqsupset>"
+    name: "sqsupset.symbol"
+  }
+  {
+    match: "\\\\<sqsubseteq>"
+    name: "sqsubseteq.symbol"
+  }
+  {
+    match: "\\\\<sqsupseteq>"
+    name: "sqsupseteq.symbol"
+  }
+  {
+    match: "\\\\<inter>"
+    name: "inter.symbol"
+  }
+  {
+    match: "\\\\<Inter>"
+    name: "Inter.symbol"
+  }
+  {
+    match: "\\\\<union>"
+    name: "union.symbol"
+  }
+  {
+    match: "\\\\<Union>"
+    name: "Union.symbol"
+  }
+  {
+    match: "\\\\<squnion>"
+    name: "squnion.symbol"
+  }
+  {
+    match: "\\\\<Squnion>"
+    name: "Squnion.symbol"
+  }
+  {
+    match: "\\\\<sqinter>"
+    name: "sqinter.symbol"
+  }
+  {
+    match: "\\\\<Sqinter>"
+    name: "Sqinter.symbol"
+  }
+  {
+    match: "\\\\<setminus>"
+    name: "setminus.symbol"
+  }
+  {
+    match: "\\\\<propto>"
+    name: "propto.symbol"
+  }
+  {
+    match: "\\\\<uplus>"
+    name: "uplus.symbol"
+  }
+  {
+    match: "\\\\<Uplus>"
+    name: "Uplus.symbol"
+  }
+  {
+    match: "\\\\<noteq>"
+    name: "noteq.symbol"
+  }
+  {
+    match: "\\\\<sim>"
+    name: "sim.symbol"
+  }
+  {
+    match: "\\\\<doteq>"
+    name: "doteq.symbol"
+  }
+  {
+    match: "\\\\<simeq>"
+    name: "simeq.symbol"
+  }
+  {
+    match: "\\\\<approx>"
+    name: "approx.symbol"
+  }
+  {
+    match: "\\\\<asymp>"
+    name: "asymp.symbol"
+  }
+  {
+    match: "\\\\<cong>"
+    name: "cong.symbol"
+  }
+  {
+    match: "\\\\<smile>"
+    name: "smile.symbol"
+  }
+  {
+    match: "\\\\<equiv>"
+    name: "equiv.symbol"
+  }
+  {
+    match: "\\\\<frown>"
+    name: "frown.symbol"
+  }
+  {
+    match: "\\\\<Join>"
+    name: "Join.symbol"
+  }
+  {
+    match: "\\\\<bowtie>"
+    name: "bowtie.symbol"
+  }
+  {
+    match: "\\\\<prec>"
+    name: "prec.symbol"
+  }
+  {
+    match: "\\\\<succ>"
+    name: "succ.symbol"
+  }
+  {
+    match: "\\\\<preceq>"
+    name: "preceq.symbol"
+  }
+  {
+    match: "\\\\<succeq>"
+    name: "succeq.symbol"
+  }
+  {
+    match: "\\\\<parallel>"
+    name: "parallel.symbol"
+  }
+  {
+    match: "\\\\<bar>"
+    name: "bar.symbol"
+  }
+  {
+    match: "\\\\<plusminus>"
+    name: "plusminus.symbol"
+  }
+  {
+    match: "\\\\<minusplus>"
+    name: "minusplus.symbol"
+  }
+  {
+    match: "\\\\<times>"
+    name: "times.symbol"
+  }
+  {
+    match: "\\\\<div>"
+    name: "div.symbol"
+  }
+  {
+    match: "\\\\<cdot>"
+    name: "cdot.symbol"
+  }
+  {
+    match: "\\\\<star>"
+    name: "star.symbol"
+  }
+  {
+    match: "\\\\<bullet>"
+    name: "bullet.symbol"
+  }
+  {
+    match: "\\\\<circ>"
+    name: "circ.symbol"
+  }
+  {
+    match: "\\\\<dagger>"
+    name: "dagger.symbol"
+  }
+  {
+    match: "\\\\<ddagger>"
+    name: "ddagger.symbol"
+  }
+  {
+    match: "\\\\<lhd>"
+    name: "lhd.symbol"
+  }
+  {
+    match: "\\\\<rhd>"
+    name: "rhd.symbol"
+  }
+  {
+    match: "\\\\<unlhd>"
+    name: "unlhd.symbol"
+  }
+  {
+    match: "\\\\<unrhd>"
+    name: "unrhd.symbol"
+  }
+  {
+    match: "\\\\<triangleleft>"
+    name: "triangleleft.symbol"
+  }
+  {
+    match: "\\\\<triangleright>"
+    name: "triangleright.symbol"
+  }
+  {
+    match: "\\\\<triangle>"
+    name: "triangle.symbol"
+  }
+  {
+    match: "\\\\<triangleq>"
+    name: "triangleq.symbol"
+  }
+  {
+    match: "\\\\<oplus>"
+    name: "oplus.symbol"
+  }
+  {
+    match: "\\\\<Oplus>"
+    name: "Oplus.symbol"
+  }
+  {
+    match: "\\\\<otimes>"
+    name: "otimes.symbol"
+  }
+  {
+    match: "\\\\<Otimes>"
+    name: "Otimes.symbol"
+  }
+  {
+    match: "\\\\<odot>"
+    name: "odot.symbol"
+  }
+  {
+    match: "\\\\<Odot>"
+    name: "Odot.symbol"
+  }
+  {
+    match: "\\\\<ominus>"
+    name: "ominus.symbol"
+  }
+  {
+    match: "\\\\<oslash>"
+    name: "oslash.symbol"
+  }
+  {
+    match: "\\\\<dots>"
+    name: "dots.symbol"
+  }
+  {
+    match: "\\\\<cdots>"
+    name: "cdots.symbol"
+  }
+  {
+    match: "\\\\<Sum>"
+    name: "Sum.symbol"
+  }
+  {
+    match: "\\\\<Prod>"
+    name: "Prod.symbol"
+  }
+  {
+    match: "\\\\<Coprod>"
+    name: "Coprod.symbol"
+  }
+  {
+    match: "\\\\<infinity>"
+    name: "infinity.symbol"
+  }
+  {
+    match: "\\\\<integral>"
+    name: "integral.symbol"
+  }
+  {
+    match: "\\\\<ointegral>"
+    name: "ointegral.symbol"
+  }
+  {
+    match: "\\\\<clubsuit>"
+    name: "clubsuit.symbol"
+  }
+  {
+    match: "\\\\<diamondsuit>"
+    name: "diamondsuit.symbol"
+  }
+  {
+    match: "\\\\<heartsuit>"
+    name: "heartsuit.symbol"
+  }
+  {
+    match: "\\\\<spadesuit>"
+    name: "spadesuit.symbol"
+  }
+  {
+    match: "\\\\<aleph>"
+    name: "aleph.symbol"
+  }
+  {
+    match: "\\\\<emptyset>"
+    name: "emptyset.symbol"
+  }
+  {
+    match: "\\\\<nabla>"
+    name: "nabla.symbol"
+  }
+  {
+    match: "\\\\<partial>"
+    name: "partial.symbol"
+  }
+  {
+    match: "\\\\<flat>"
+    name: "flat.symbol"
+  }
+  {
+    match: "\\\\<natural>"
+    name: "natural.symbol"
+  }
+  {
+    match: "\\\\<sharp>"
+    name: "sharp.symbol"
+  }
+  {
+    match: "\\\\<angle>"
+    name: "angle.symbol"
+  }
+  {
+    match: "\\\\<copyright>"
+    name: "copyright.symbol"
+  }
+  {
+    match: "\\\\<registered>"
+    name: "registered.symbol"
+  }
+  {
+    match: "\\\\<hyphen>"
+    name: "hyphen.symbol"
+  }
+  {
+    match: "\\\\<inverse>"
+    name: "inverse.symbol"
+  }
+  {
+    match: "\\\\<onequarter>"
+    name: "onequarter.symbol"
+  }
+  {
+    match: "\\\\<onehalf>"
+    name: "onehalf.symbol"
+  }
+  {
+    match: "\\\\<threequarters>"
+    name: "threequarters.symbol"
+  }
+  {
+    match: "\\\\<ordfeminine>"
+    name: "ordfeminine.symbol"
+  }
+  {
+    match: "\\\\<ordmasculine>"
+    name: "ordmasculine.symbol"
+  }
+  {
+    match: "\\\\<section>"
+    name: "section.symbol"
+  }
+  {
+    match: "\\\\<paragraph>"
+    name: "paragraph.symbol"
+  }
+  {
+    match: "\\\\<exclamdown>"
+    name: "exclamdown.symbol"
+  }
+  {
+    match: "\\\\<questiondown>"
+    name: "questiondown.symbol"
+  }
+  {
+    match: "\\\\<euro>"
+    name: "euro.symbol"
+  }
+  {
+    match: "\\\\<pounds>"
+    name: "pounds.symbol"
+  }
+  {
+    match: "\\\\<yen>"
+    name: "yen.symbol"
+  }
+  {
+    match: "\\\\<cent>"
+    name: "cent.symbol"
+  }
+  {
+    match: "\\\\<currency>"
+    name: "currency.symbol"
+  }
+  {
+    match: "\\\\<degree>"
+    name: "degree.symbol"
+  }
+  {
+    match: "\\\\<amalg>"
+    name: "amalg.symbol"
+  }
+  {
+    match: "\\\\<mho>"
+    name: "mho.symbol"
+  }
+  {
+    match: "\\\\<lozenge>"
+    name: "lozenge.symbol"
+  }
+  {
+    match: "\\\\<wp>"
+    name: "wp.symbol"
+  }
+  {
+    match: "\\\\<wrong>"
+    name: "wrong.symbol"
+  }
+  {
+    match: "\\\\<acute>"
+    name: "acute.symbol"
+  }
+  {
+    match: "\\\\<index>"
+    name: "index.symbol"
+  }
+  {
+    match: "\\\\<dieresis>"
+    name: "dieresis.symbol"
+  }
+  {
+    match: "\\\\<cedilla>"
+    name: "cedilla.symbol"
+  }
+  {
+    match: "\\\\<hungarumlaut>"
+    name: "hungarumlaut.symbol"
+  }
+  {
+    match: "\\\\<bind>"
+    name: "bind.symbol"
+  }
+  {
+    match: "\\\\<then>"
+    name: "then.symbol"
+  }
+  {
+    match: "\\\\<some>"
+    name: "some.symbol"
+  }
+  {
+    match: "\\\\<hole>"
+    name: "hole.symbol"
+  }
+  {
+    match: "\\\\<newline>"
+    name: "newline.symbol"
+  }
+  {
+    match: "\\\\<comment>"
+    name: "comment.symbol"
+  }
+  {
+    match: "\\\\<open>"
+    name: "open.symbol"
+  }
+  {
+    match: "\\\\<close>"
+    name: "close.symbol"
+  }
+  {
+    match: "\\\\<^here>"
+    name: "here.symbol"
+  }
+  {
+    match: "\\\\<^undefined>"
+    name: "undefined.symbol"
+  }
+  {
+    match: "\\\\<^noindent>"
+    name: "noindent.symbol"
+  }
+  {
+    match: "\\\\<^smallskip>"
+    name: "smallskip.symbol"
+  }
+  {
+    match: "\\\\<^medskip>"
+    name: "medskip.symbol"
+  }
+  {
+    match: "\\\\<^bigskip>"
+    name: "bigskip.symbol"
+  }
+  {
+    match: "\\\\<^item>"
+    name: "item.symbol"
+  }
+  {
+    match: "\\\\<^enum>"
+    name: "enum.symbol"
+  }
+  {
+    match: "\\\\<^descr>"
+    name: "descr.symbol"
+  }
+  {
+    match: "\\\\<^footnote>"
+    name: "footnote.symbol"
+  }
+  {
+    match: "\\\\<^verbatim>"
+    name: "verbatim.symbol"
+  }
+  {
+    match: "\\\\<^theory_text>"
+    name: "theory_text.symbol"
+  }
+  {
+    match: "\\\\<^emph>"
+    name: "emph.symbol"
+  }
+  {
+    match: "\\\\<^bold>"
+    name: "bold.symbol"
+  }
+  {
+    match: "\\\\<^sub>"
+    name: "sub.symbol"
+  }
+  {
+    match: "\\\\<^sup>"
+    name: "sup.symbol"
+  }
+  {
+    match: "\\\\<^bsub>"
+    name: "bsub.symbol"
+  }
+  {
+    match: "\\\\<^esub>"
+    name: "esub.symbol"
+  }
+  {
+    match: "\\\\<^bsup>"
+    name: "bsup.symbol"
+  }
+  {
+    match: "\\\\<^esup>"
+    name: "esup.symbol"
+  }
+  {
+    match: "\\\\<^file>"
+    name: "file.symbol"
+  }
+  {
+    match: "\\\\<^dir>"
+    name: "dir.symbol"
+  }
+  {
+    match: "\\\\<^url>"
+    name: "url.symbol"
+  }
+  {
+    match: "\\\\<^doc>"
+    name: "doc.symbol"
+  }
+  {
+    match: "\\\\<^action>"
+    name: "action.symbol"
   }
 ]
 scopeName: "source.isabelle.theory"
