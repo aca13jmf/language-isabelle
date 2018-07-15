@@ -1,0 +1,4 @@
+".source.isabelle.theory":
+  editor:
+    commentStart: "(* "
+    commentEnd: " *)"
