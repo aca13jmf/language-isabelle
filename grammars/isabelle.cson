@@ -58,7 +58,7 @@ patterns: [
     name: "keyword.other.goal"
   }
   {
-    match: "\\b(have|hence|interpret|next|proof|finally|from|then|ultimately|with|ML_prf|also|include|including|let|moreover|note|unfolding|using|write|also|include|including|let|moreover|note|txt|txt_raw|unfolding|using|supply|write|assume|case|def|fix|presume|consider|guess|obtain|show|subgoal|thus|apply|apply_end|apply_trace|back|defer|prefer|and|by|done|qed)\\b"
+    match: "\\b(?<!\")(have|hence|interpret|next|proof|finally|from|then|ultimately|with|ML_prf|also|include|including|let|moreover|note|unfolding|using|write|also|include|including|let|moreover|note|txt|txt_raw|unfolding|using|supply|write|assume|case|def|fix|presume|consider|guess|obtain|show|subgoal|thus|apply|apply_end|apply_trace|back|defer|prefer|and|by|done|qed)\\b"
     name: "keyword.control.proof"
   }
   {
@@ -87,1550 +87,1550 @@ patterns: [
     name: "punctuation.terminator.isabelle"
   }
   {
-    match: "[0-9]+"
+    match: "(?<!_|[a-zA-Z])[0-9]+"
     name: "constant.numeric"
   }
 
 # Symbols
   {
     match: "\\\\<zero>"
-    name: "zero.symbol"
+    name: "zero.symbol.isabelle"
   }
   {
     match: "\\\\<one>"
-    name: "one.symbol"
+    name: "one.symbol.isabelle"
   }
   {
     match: "\\\\<two>"
-    name: "two.symbol"
+    name: "two.symbol.isabelle"
   }
   {
     match: "\\\\<three>"
-    name: "three.symbol"
+    name: "three.symbol.isabelle"
   }
   {
     match: "\\\\<four>"
-    name: "four.symbol"
+    name: "four.symbol.isabelle"
   }
   {
     match: "\\\\<five>"
-    name: "five.symbol"
+    name: "five.symbol.isabelle"
   }
   {
     match: "\\\\<six>"
-    name: "six.symbol"
+    name: "six.symbol.isabelle"
   }
   {
     match: "\\\\<seven>"
-    name: "seven.symbol"
+    name: "seven.symbol.isabelle"
   }
   {
     match: "\\\\<eight>"
-    name: "eight.symbol"
+    name: "eight.symbol.isabelle"
   }
   {
     match: "\\\\<nine>"
-    name: "nine.symbol"
+    name: "nine.symbol.isabelle"
   }
   {
     match: "\\\\<A>"
-    name: "A.symbol"
+    name: "A.symbol.isabelle"
   }
   {
     match: "\\\\<B>"
-    name: "B.symbol"
+    name: "B.symbol.isabelle"
   }
   {
     match: "\\\\<C>"
-    name: "C.symbol"
+    name: "C.symbol.isabelle"
   }
   {
     match: "\\\\<D>"
-    name: "D.symbol"
+    name: "D.symbol.isabelle"
   }
   {
     match: "\\\\<E>"
-    name: "E.symbol"
+    name: "E.symbol.isabelle"
   }
   {
     match: "\\\\<F>"
-    name: "F.symbol"
+    name: "F.symbol.isabelle"
   }
   {
     match: "\\\\<G>"
-    name: "G.symbol"
+    name: "G.symbol.isabelle"
   }
   {
     match: "\\\\<H>"
-    name: "H.symbol"
+    name: "H.symbol.isabelle"
   }
   {
     match: "\\\\<I>"
-    name: "I.symbol"
+    name: "I.symbol.isabelle"
   }
   {
     match: "\\\\<J>"
-    name: "J.symbol"
+    name: "J.symbol.isabelle"
   }
   {
     match: "\\\\<K>"
-    name: "K.symbol"
+    name: "K.symbol.isabelle"
   }
   {
     match: "\\\\<L>"
-    name: "L.symbol"
+    name: "L.symbol.isabelle"
   }
   {
     match: "\\\\<M>"
-    name: "M.symbol"
+    name: "M.symbol.isabelle"
   }
   {
     match: "\\\\<N>"
-    name: "N.symbol"
+    name: "N.symbol.isabelle"
   }
   {
     match: "\\\\<O>"
-    name: "O.symbol"
+    name: "O.symbol.isabelle"
   }
   {
     match: "\\\\<P>"
-    name: "P.symbol"
+    name: "P.symbol.isabelle"
   }
   {
     match: "\\\\<Q>"
-    name: "Q.symbol"
+    name: "Q.symbol.isabelle"
   }
   {
     match: "\\\\<R>"
-    name: "R.symbol"
+    name: "R.symbol.isabelle"
   }
   {
     match: "\\\\<S>"
-    name: "S.symbol"
+    name: "S.symbol.isabelle"
   }
   {
     match: "\\\\<T>"
-    name: "T.symbol"
+    name: "T.symbol.isabelle"
   }
   {
     match: "\\\\<U>"
-    name: "U.symbol"
+    name: "U.symbol.isabelle"
   }
   {
     match: "\\\\<V>"
-    name: "V.symbol"
+    name: "V.symbol.isabelle"
   }
   {
     match: "\\\\<W>"
-    name: "W.symbol"
+    name: "W.symbol.isabelle"
   }
   {
     match: "\\\\<X>"
-    name: "X.symbol"
+    name: "X.symbol.isabelle"
   }
   {
     match: "\\\\<Y>"
-    name: "Y.symbol"
+    name: "Y.symbol.isabelle"
   }
   {
     match: "\\\\<Z>"
-    name: "Z.symbol"
+    name: "Z.symbol.isabelle"
   }
   {
     match: "\\\\<a>"
-    name: "a.symbol"
+    name: "a.symbol.isabelle"
   }
   {
     match: "\\\\<b>"
-    name: "b.symbol"
+    name: "b.symbol.isabelle"
   }
   {
     match: "\\\\<c>"
-    name: "c.symbol"
+    name: "c.symbol.isabelle"
   }
   {
     match: "\\\\<d>"
-    name: "d.symbol"
+    name: "d.symbol.isabelle"
   }
   {
     match: "\\\\<e>"
-    name: "e.symbol"
+    name: "e.symbol.isabelle"
   }
   {
     match: "\\\\<f>"
-    name: "f.symbol"
+    name: "f.symbol.isabelle"
   }
   {
     match: "\\\\<g>"
-    name: "g.symbol"
+    name: "g.symbol.isabelle"
   }
   {
     match: "\\\\<h>"
-    name: "h.symbol"
+    name: "h.symbol.isabelle"
   }
   {
     match: "\\\\<i>"
-    name: "i.symbol"
+    name: "i.symbol.isabelle"
   }
   {
     match: "\\\\<j>"
-    name: "j.symbol"
+    name: "j.symbol.isabelle"
   }
   {
     match: "\\\\<k>"
-    name: "k.symbol"
+    name: "k.symbol.isabelle"
   }
   {
     match: "\\\\<l>"
-    name: "l.symbol"
+    name: "l.symbol.isabelle"
   }
   {
     match: "\\\\<m>"
-    name: "m.symbol"
+    name: "m.symbol.isabelle"
   }
   {
     match: "\\\\<n>"
-    name: "n.symbol"
+    name: "n.symbol.isabelle"
   }
   {
     match: "\\\\<o>"
-    name: "o.symbol"
+    name: "o.symbol.isabelle"
   }
   {
     match: "\\\\<p>"
-    name: "p.symbol"
+    name: "p.symbol.isabelle"
   }
   {
     match: "\\\\<q>"
-    name: "q.symbol"
+    name: "q.symbol.isabelle"
   }
   {
     match: "\\\\<r>"
-    name: "r.symbol"
+    name: "r.symbol.isabelle"
   }
   {
     match: "\\\\<s>"
-    name: "s.symbol"
+    name: "s.symbol.isabelle"
   }
   {
     match: "\\\\<t>"
-    name: "t.symbol"
+    name: "t.symbol.isabelle"
   }
   {
     match: "\\\\<u>"
-    name: "u.symbol"
+    name: "u.symbol.isabelle"
   }
   {
     match: "\\\\<v>"
-    name: "v.symbol"
+    name: "v.symbol.isabelle"
   }
   {
     match: "\\\\<w>"
-    name: "w.symbol"
+    name: "w.symbol.isabelle"
   }
   {
     match: "\\\\<x>"
-    name: "x.symbol"
+    name: "x.symbol.isabelle"
   }
   {
     match: "\\\\<y>"
-    name: "y.symbol"
+    name: "y.symbol.isabelle"
   }
   {
     match: "\\\\<z>"
-    name: "z.symbol"
+    name: "z.symbol.isabelle"
   }
   {
     match: "\\\\<AA>"
-    name: "AA.symbol"
+    name: "AA.symbol.isabelle"
   }
   {
     match: "\\\\<BB>"
-    name: "BB.symbol"
+    name: "BB.symbol.isabelle"
   }
   {
     match: "\\\\<CC>"
-    name: "CC.symbol"
+    name: "CC.symbol.isabelle"
   }
   {
     match: "\\\\<DD>"
-    name: "DD.symbol"
+    name: "DD.symbol.isabelle"
   }
   {
     match: "\\\\<EE>"
-    name: "EE.symbol"
+    name: "EE.symbol.isabelle"
   }
   {
     match: "\\\\<FF>"
-    name: "FF.symbol"
+    name: "FF.symbol.isabelle"
   }
   {
     match: "\\\\<GG>"
-    name: "GG.symbol"
+    name: "GG.symbol.isabelle"
   }
   {
     match: "\\\\<HH>"
-    name: "HH.symbol"
+    name: "HH.symbol.isabelle"
   }
   {
     match: "\\\\<II>"
-    name: "II.symbol"
+    name: "II.symbol.isabelle"
   }
   {
     match: "\\\\<JJ>"
-    name: "JJ.symbol"
+    name: "JJ.symbol.isabelle"
   }
   {
     match: "\\\\<KK>"
-    name: "KK.symbol"
+    name: "KK.symbol.isabelle"
   }
   {
     match: "\\\\<LL>"
-    name: "LL.symbol"
+    name: "LL.symbol.isabelle"
   }
   {
     match: "\\\\<MM>"
-    name: "MM.symbol"
+    name: "MM.symbol.isabelle"
   }
   {
     match: "\\\\<NN>"
-    name: "NN.symbol"
+    name: "NN.symbol.isabelle"
   }
   {
     match: "\\\\<OO>"
-    name: "OO.symbol"
+    name: "OO.symbol.isabelle"
   }
   {
     match: "\\\\<PP>"
-    name: "PP.symbol"
+    name: "PP.symbol.isabelle"
   }
   {
     match: "\\\\<QQ>"
-    name: "QQ.symbol"
+    name: "QQ.symbol.isabelle"
   }
   {
     match: "\\\\<RR>"
-    name: "RR.symbol"
+    name: "RR.symbol.isabelle"
   }
   {
     match: "\\\\<SS>"
-    name: "SS.symbol"
+    name: "SS.symbol.isabelle"
   }
   {
     match: "\\\\<TT>"
-    name: "TT.symbol"
+    name: "TT.symbol.isabelle"
   }
   {
     match: "\\\\<UU>"
-    name: "UU.symbol"
+    name: "UU.symbol.isabelle"
   }
   {
     match: "\\\\<VV>"
-    name: "VV.symbol"
+    name: "VV.symbol.isabelle"
   }
   {
     match: "\\\\<WW>"
-    name: "WW.symbol"
+    name: "WW.symbol.isabelle"
   }
   {
     match: "\\\\<XX>"
-    name: "XX.symbol"
+    name: "XX.symbol.isabelle"
   }
   {
     match: "\\\\<YY>"
-    name: "YY.symbol"
+    name: "YY.symbol.isabelle"
   }
   {
     match: "\\\\<ZZ>"
-    name: "ZZ.symbol"
+    name: "ZZ.symbol.isabelle"
   }
   {
     match: "\\\\<aa>"
-    name: "aa.symbol"
+    name: "aa.symbol.isabelle"
   }
   {
     match: "\\\\<bb>"
-    name: "bb.symbol"
+    name: "bb.symbol.isabelle"
   }
   {
     match: "\\\\<cc>"
-    name: "cc.symbol"
+    name: "cc.symbol.isabelle"
   }
   {
     match: "\\\\<dd>"
-    name: "dd.symbol"
+    name: "dd.symbol.isabelle"
   }
   {
     match: "\\\\<ee>"
-    name: "ee.symbol"
+    name: "ee.symbol.isabelle"
   }
   {
     match: "\\\\<ff>"
-    name: "ff.symbol"
+    name: "ff.symbol.isabelle"
   }
   {
     match: "\\\\<gg>"
-    name: "gg.symbol"
+    name: "gg.symbol.isabelle"
   }
   {
     match: "\\\\<hh>"
-    name: "hh.symbol"
+    name: "hh.symbol.isabelle"
   }
   {
     match: "\\\\<ii>"
-    name: "ii.symbol"
+    name: "ii.symbol.isabelle"
   }
   {
     match: "\\\\<jj>"
-    name: "jj.symbol"
+    name: "jj.symbol.isabelle"
   }
   {
     match: "\\\\<kk>"
-    name: "kk.symbol"
+    name: "kk.symbol.isabelle"
   }
   {
     match: "\\\\<ll>"
-    name: "ll.symbol"
+    name: "ll.symbol.isabelle"
   }
   {
     match: "\\\\<mm>"
-    name: "mm.symbol"
+    name: "mm.symbol.isabelle"
   }
   {
     match: "\\\\<nn>"
-    name: "nn.symbol"
+    name: "nn.symbol.isabelle"
   }
   {
     match: "\\\\<oo>"
-    name: "oo.symbol"
+    name: "oo.symbol.isabelle"
   }
   {
     match: "\\\\<pp>"
-    name: "pp.symbol"
+    name: "pp.symbol.isabelle"
   }
   {
     match: "\\\\<qq>"
-    name: "qq.symbol"
+    name: "qq.symbol.isabelle"
   }
   {
     match: "\\\\<rr>"
-    name: "rr.symbol"
+    name: "rr.symbol.isabelle"
   }
   {
     match: "\\\\<ss>"
-    name: "ss.symbol"
+    name: "ss.symbol.isabelle"
   }
   {
     match: "\\\\<tt>"
-    name: "tt.symbol"
+    name: "tt.symbol.isabelle"
   }
   {
     match: "\\\\<uu>"
-    name: "uu.symbol"
+    name: "uu.symbol.isabelle"
   }
   {
     match: "\\\\<vv>"
-    name: "vv.symbol"
+    name: "vv.symbol.isabelle"
   }
   {
     match: "\\\\<ww>"
-    name: "ww.symbol"
+    name: "ww.symbol.isabelle"
   }
   {
     match: "\\\\<xx>"
-    name: "xx.symbol"
+    name: "xx.symbol.isabelle"
   }
   {
     match: "\\\\<yy>"
-    name: "yy.symbol"
+    name: "yy.symbol.isabelle"
   }
   {
     match: "\\\\<zz>"
-    name: "zz.symbol"
+    name: "zz.symbol.isabelle"
   }
   {
     match: "\\\\<alpha>"
-    name: "alpha.symbol"
+    name: "alpha.symbol.isabelle"
   }
   {
     match: "\\\\<beta>"
-    name: "beta.symbol"
+    name: "beta.symbol.isabelle"
   }
   {
     match: "\\\\<gamma>"
-    name: "gamma.symbol"
+    name: "gamma.symbol.isabelle"
   }
   {
     match: "\\\\<delta>"
-    name: "delta.symbol"
+    name: "delta.symbol.isabelle"
   }
   {
     match: "\\\\<epsilon>"
-    name: "epsilon.symbol"
+    name: "epsilon.symbol.isabelle"
   }
   {
     match: "\\\\<zeta>"
-    name: "zeta.symbol"
+    name: "zeta.symbol.isabelle"
   }
   {
     match: "\\\\<eta>"
-    name: "eta.symbol"
+    name: "eta.symbol.isabelle"
   }
   {
     match: "\\\\<theta>"
-    name: "theta.symbol"
+    name: "theta.symbol.isabelle"
   }
   {
     match: "\\\\<iota>"
-    name: "iota.symbol"
+    name: "iota.symbol.isabelle"
   }
   {
     match: "\\\\<kappa>"
-    name: "kappa.symbol"
+    name: "kappa.symbol.isabelle"
   }
   {
     match: "\\\\<lambda>"
-    name: "lambda.symbol"
+    name: "lambda.symbol.isabelle"
   }
   {
     match: "\\\\<mu>"
-    name: "mu.symbol"
+    name: "mu.symbol.isabelle"
   }
   {
     match: "\\\\<nu>"
-    name: "nu.symbol"
+    name: "nu.symbol.isabelle"
   }
   {
     match: "\\\\<xi>"
-    name: "xi.symbol"
+    name: "xi.symbol.isabelle"
   }
   {
     match: "\\\\<pi>"
-    name: "pi.symbol"
+    name: "pi.symbol.isabelle"
   }
   {
     match: "\\\\<rho>"
-    name: "rho.symbol"
+    name: "rho.symbol.isabelle"
   }
   {
     match: "\\\\<sigma>"
-    name: "sigma.symbol"
+    name: "sigma.symbol.isabelle"
   }
   {
     match: "\\\\<tau>"
-    name: "tau.symbol"
+    name: "tau.symbol.isabelle"
   }
   {
     match: "\\\\<upsilon>"
-    name: "upsilon.symbol"
+    name: "upsilon.symbol.isabelle"
   }
   {
     match: "\\\\<phi>"
-    name: "phi.symbol"
+    name: "phi.symbol.isabelle"
   }
   {
     match: "\\\\<chi>"
-    name: "chi.symbol"
+    name: "chi.symbol.isabelle"
   }
   {
     match: "\\\\<psi>"
-    name: "psi.symbol"
+    name: "psi.symbol.isabelle"
   }
   {
     match: "\\\\<omega>"
-    name: "omega.symbol"
+    name: "omega.symbol.isabelle"
   }
   {
     match: "\\\\<Gamma>"
-    name: "Gamma.symbol"
+    name: "Gamma.symbol.isabelle"
   }
   {
     match: "\\\\<Delta>"
-    name: "Delta.symbol"
+    name: "Delta.symbol.isabelle"
   }
   {
     match: "\\\\<Theta>"
-    name: "Theta.symbol"
+    name: "Theta.symbol.isabelle"
   }
   {
     match: "\\\\<Lambda>"
-    name: "Lambda.symbol"
+    name: "Lambda.symbol.isabelle"
   }
   {
     match: "\\\\<Xi>"
-    name: "Xi.symbol"
+    name: "Xi.symbol.isabelle"
   }
   {
     match: "\\\\<Pi>"
-    name: "Pi.symbol"
+    name: "Pi.symbol.isabelle"
   }
   {
     match: "\\\\<Sigma>"
-    name: "Sigma.symbol"
+    name: "Sigma.symbol.isabelle"
   }
   {
     match: "\\\\<Upsilon>"
-    name: "Upsilon.symbol"
+    name: "Upsilon.symbol.isabelle"
   }
   {
     match: "\\\\<Phi>"
-    name: "Phi.symbol"
+    name: "Phi.symbol.isabelle"
   }
   {
     match: "\\\\<Psi>"
-    name: "Psi.symbol"
+    name: "Psi.symbol.isabelle"
   }
   {
     match: "\\\\<Omega>"
-    name: "Omega.symbol"
+    name: "Omega.symbol.isabelle"
   }
   {
     match: "\\\\<bool>"
-    name: "bool.symbol"
+    name: "bool.symbol.isabelle"
   }
   {
     match: "\\\\<complex>"
-    name: "complex.symbol"
+    name: "complex.symbol.isabelle"
   }
   {
     match: "\\\\<nat>"
-    name: "nat.symbol"
+    name: "nat.symbol.isabelle"
   }
   {
     match: "\\\\<rat>"
-    name: "rat.symbol"
+    name: "rat.symbol.isabelle"
   }
   {
     match: "\\\\<real>"
-    name: "real.symbol"
+    name: "real.symbol.isabelle"
   }
   {
     match: "\\\\<int>"
-    name: "int.symbol"
+    name: "int.symbol.isabelle"
   }
   {
     match: "\\\\<leftarrow>"
-    name: "leftarrow.symbol"
+    name: "leftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<longleftarrow>"
-    name: "longleftarrow.symbol"
+    name: "longleftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<longlongleftarrow>"
-    name: "longlongleftarrow.symbol"
+    name: "longlongleftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<longlonglongleftarrow>"
-    name: "longlonglongleftarrow.symbol"
+    name: "longlonglongleftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<rightarrow>"
-    name: "rightarrow.symbol"
+    name: "rightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<longrightarrow>"
-    name: "longrightarrow.symbol"
+    name: "longrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<longlongrightarrow>"
-    name: "longlongrightarrow.symbol"
+    name: "longlongrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<longlonglongrightarrow>"
-    name: "longlonglongrightarrow.symbol"
+    name: "longlonglongrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Leftarrow>"
-    name: "Leftarrow.symbol"
+    name: "Leftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Longleftarrow>"
-    name: "Longleftarrow.symbol"
+    name: "Longleftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Lleftarrow>"
-    name: "Lleftarrow.symbol"
+    name: "Lleftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Rightarrow>"
-    name: "Rightarrow.symbol"
+    name: "Rightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Longrightarrow>"
-    name: "Longrightarrow.symbol"
+    name: "Longrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Rrightarrow>"
-    name: "Rrightarrow.symbol"
+    name: "Rrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<leftrightarrow>"
-    name: "leftrightarrow.symbol"
+    name: "leftrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<longleftrightarrow>"
-    name: "longleftrightarrow.symbol"
+    name: "longleftrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Leftrightarrow>"
-    name: "Leftrightarrow.symbol"
+    name: "Leftrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Longleftrightarrow>"
-    name: "Longleftrightarrow.symbol"
+    name: "Longleftrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<mapsto>"
-    name: "mapsto.symbol"
+    name: "mapsto.symbol.isabelle"
   }
   {
     match: "\\\\<longmapsto>"
-    name: "longmapsto.symbol"
+    name: "longmapsto.symbol.isabelle"
   }
   {
     match: "\\\\<midarrow>"
-    name: "midarrow.symbol"
+    name: "midarrow.symbol.isabelle"
   }
   {
     match: "\\\\<Midarrow>"
-    name: "Midarrow.symbol"
+    name: "Midarrow.symbol.isabelle"
   }
   {
     match: "\\\\<hookleftarrow>"
-    name: "hookleftarrow.symbol"
+    name: "hookleftarrow.symbol.isabelle"
   }
   {
     match: "\\\\<hookrightarrow>"
-    name: "hookrightarrow.symbol"
+    name: "hookrightarrow.symbol.isabelle"
   }
   {
     match: "\\\\<leftharpoondown>"
-    name: "leftharpoondown.symbol"
+    name: "leftharpoondown.symbol.isabelle"
   }
   {
     match: "\\\\<rightharpoondown>"
-    name: "rightharpoondown.symbol"
+    name: "rightharpoondown.symbol.isabelle"
   }
   {
     match: "\\\\<leftharpoonup>"
-    name: "leftharpoonup.symbol"
+    name: "leftharpoonup.symbol.isabelle"
   }
   {
     match: "\\\\<rightharpoonup>"
-    name: "rightharpoonup.symbol"
+    name: "rightharpoonup.symbol.isabelle"
   }
   {
     match: "\\\\<rightleftharpoons>"
-    name: "rightleftharpoons.symbol"
+    name: "rightleftharpoons.symbol.isabelle"
   }
   {
     match: "\\\\<leadsto>"
-    name: "leadsto.symbol"
+    name: "leadsto.symbol.isabelle"
   }
   {
     match: "\\\\<downharpoonleft>"
-    name: "downharpoonleft.symbol"
+    name: "downharpoonleft.symbol.isabelle"
   }
   {
     match: "\\\\<downharpoonright>"
-    name: "downharpoonright.symbol"
+    name: "downharpoonright.symbol.isabelle"
   }
   {
     match: "\\\\<upharpoonleft>"
-    name: "upharpoonleft.symbol"
+    name: "upharpoonleft.symbol.isabelle"
   }
   {
     match: "\\\\<restriction>"
-    name: "restriction.symbol"
+    name: "restriction.symbol.isabelle"
   }
   {
     match: "\\\\<Colon>"
-    name: "Colon.symbol"
+    name: "Colon.symbol.isabelle"
   }
   {
     match: "\\\\<up>"
-    name: "up.symbol"
+    name: "up.symbol.isabelle"
   }
   {
     match: "\\\\<Up>"
-    name: "Up.symbol"
+    name: "Up.symbol.isabelle"
   }
   {
     match: "\\\\<down>"
-    name: "down.symbol"
+    name: "down.symbol.isabelle"
   }
   {
     match: "\\\\<Down>"
-    name: "Down.symbol"
+    name: "Down.symbol.isabelle"
   }
   {
     match: "\\\\<updown>"
-    name: "updown.symbol"
+    name: "updown.symbol.isabelle"
   }
   {
     match: "\\\\<Updown>"
-    name: "Updown.symbol"
+    name: "Updown.symbol.isabelle"
   }
   {
     match: "\\\\<langle>"
-    name: "langle.symbol"
+    name: "langle.symbol.isabelle"
   }
   {
     match: "\\\\<rangle>"
-    name: "rangle.symbol"
+    name: "rangle.symbol.isabelle"
   }
   {
     match: "\\\\<lceil>"
-    name: "lceil.symbol"
+    name: "lceil.symbol.isabelle"
   }
   {
     match: "\\\\<rceil>"
-    name: "rceil.symbol"
+    name: "rceil.symbol.isabelle"
   }
   {
     match: "\\\\<lfloor>"
-    name: "lfloor.symbol"
+    name: "lfloor.symbol.isabelle"
   }
   {
     match: "\\\\<rfloor>"
-    name: "rfloor.symbol"
+    name: "rfloor.symbol.isabelle"
   }
   {
     match: "\\\\<lparr>"
-    name: "lparr.symbol"
+    name: "lparr.symbol.isabelle"
   }
   {
     match: "\\\\<rparr>"
-    name: "rparr.symbol"
+    name: "rparr.symbol.isabelle"
   }
   {
     match: "\\\\<lbrakk>"
-    name: "lbrakk.symbol"
+    name: "lbrakk.symbol.isabelle"
   }
   {
     match: "\\\\<rbrakk>"
-    name: "rbrakk.symbol"
+    name: "rbrakk.symbol.isabelle"
   }
   {
     match: "\\\\<lbrace>"
-    name: "lbrace.symbol"
+    name: "lbrace.symbol.isabelle"
   }
   {
     match: "\\\\<rbrace>"
-    name: "rbrace.symbol"
+    name: "rbrace.symbol.isabelle"
   }
   {
     match: "\\\\<guillemotleft>"
-    name: "guillemotleft.symbol"
+    name: "guillemotleft.symbol.isabelle"
   }
   {
     match: "\\\\<guillemotright>"
-    name: "guillemotright.symbol"
+    name: "guillemotright.symbol.isabelle"
   }
   {
     match: "\\\\<bottom>"
-    name: "bottom.symbol"
+    name: "bottom.symbol.isabelle"
   }
   {
     match: "\\\\<top>"
-    name: "top.symbol"
+    name: "top.symbol.isabelle"
   }
   {
     match: "\\\\<and>"
-    name: "and.symbol"
+    name: "and.symbol.isabelle"
   }
   {
     match: "\\\\<And>"
-    name: "And.symbol"
+    name: "And.symbol.isabelle"
   }
   {
     match: "\\\\<or>"
-    name: "or.symbol"
+    name: "or.symbol.isabelle"
   }
   {
     match: "\\\\<Or>"
-    name: "Or.symbol"
+    name: "Or.symbol.isabelle"
   }
   {
     match: "\\\\<forall>"
-    name: "forall.symbol"
+    name: "forall.symbol.isabelle"
   }
   {
     match: "\\\\<exists>"
-    name: "exists.symbol"
+    name: "exists.symbol.isabelle"
   }
   {
     match: "\\\\<nexists>"
-    name: "nexists.symbol"
+    name: "nexists.symbol.isabelle"
   }
   {
     match: "\\\\<not>"
-    name: "not.symbol"
+    name: "not.symbol.isabelle"
   }
   {
     match: "\\\\<circle>"
-    name: "circle.symbol"
+    name: "circle.symbol.isabelle"
   }
   {
     match: "\\\\<box>"
-    name: "box.symbol"
+    name: "box.symbol.isabelle"
   }
   {
     match: "\\\\<diamond>"
-    name: "diamond.symbol"
+    name: "diamond.symbol.isabelle"
   }
   {
     match: "\\\\<diamondop>"
-    name: "diamondop.symbol"
+    name: "diamondop.symbol.isabelle"
   }
   {
     match: "\\\\<turnstile>"
-    name: "turnstile.symbol"
+    name: "turnstile.symbol.isabelle"
   }
   {
     match: "\\\\<Turnstile>"
-    name: "Turnstile.symbol"
+    name: "Turnstile.symbol.isabelle"
   }
   {
     match: "\\\\<tturnstile>"
-    name: "tturnstile.symbol"
+    name: "tturnstile.symbol.isabelle"
   }
   {
     match: "\\\\<TTurnstile>"
-    name: "TTurnstile.symbol"
+    name: "TTurnstile.symbol.isabelle"
   }
   {
     match: "\\\\<stileturn>"
-    name: "stileturn.symbol"
+    name: "stileturn.symbol.isabelle"
   }
   {
     match: "\\\\<surd>"
-    name: "surd.symbol"
+    name: "surd.symbol.isabelle"
   }
   {
     match: "\\\\<le>"
-    name: "le.symbol"
+    name: "le.symbol.isabelle"
   }
   {
     match: "\\\\<ge>"
-    name: "ge.symbol"
+    name: "ge.symbol.isabelle"
   }
   {
     match: "\\\\<lless>"
-    name: "lless.symbol"
+    name: "lless.symbol.isabelle"
   }
   {
     match: "\\\\<ggreater>"
-    name: "ggreater.symbol"
+    name: "ggreater.symbol.isabelle"
   }
   {
     match: "\\\\<lesssim>"
-    name: "lesssim.symbol"
+    name: "lesssim.symbol.isabelle"
   }
   {
     match: "\\\\<greatersim>"
-    name: "greatersim.symbol"
+    name: "greatersim.symbol.isabelle"
   }
   {
     match: "\\\\<lessapprox>"
-    name: "lessapprox.symbol"
+    name: "lessapprox.symbol.isabelle"
   }
   {
     match: "\\\\<greaterapprox>"
-    name: "greaterapprox.symbol"
+    name: "greaterapprox.symbol.isabelle"
   }
   {
     match: "\\\\<in>"
-    name: "in.symbol"
+    name: "in.symbol.isabelle"
   }
   {
     match: "\\\\<notin>"
-    name: "notin.symbol"
+    name: "notin.symbol.isabelle"
   }
   {
     match: "\\\\<subset>"
-    name: "subset.symbol"
+    name: "subset.symbol.isabelle"
   }
   {
     match: "\\\\<supset>"
-    name: "supset.symbol"
+    name: "supset.symbol.isabelle"
   }
   {
     match: "\\\\<subseteq>"
-    name: "subseteq.symbol"
+    name: "subseteq.symbol.isabelle"
   }
   {
     match: "\\\\<supseteq>"
-    name: "supseteq.symbol"
+    name: "supseteq.symbol.isabelle"
   }
   {
     match: "\\\\<sqsubset>"
-    name: "sqsubset.symbol"
+    name: "sqsubset.symbol.isabelle"
   }
   {
     match: "\\\\<sqsupset>"
-    name: "sqsupset.symbol"
+    name: "sqsupset.symbol.isabelle"
   }
   {
     match: "\\\\<sqsubseteq>"
-    name: "sqsubseteq.symbol"
+    name: "sqsubseteq.symbol.isabelle"
   }
   {
     match: "\\\\<sqsupseteq>"
-    name: "sqsupseteq.symbol"
+    name: "sqsupseteq.symbol.isabelle"
   }
   {
     match: "\\\\<inter>"
-    name: "inter.symbol"
+    name: "inter.symbol.isabelle"
   }
   {
     match: "\\\\<Inter>"
-    name: "Inter.symbol"
+    name: "Inter.symbol.isabelle"
   }
   {
     match: "\\\\<union>"
-    name: "union.symbol"
+    name: "union.symbol.isabelle"
   }
   {
     match: "\\\\<Union>"
-    name: "Union.symbol"
+    name: "Union.symbol.isabelle"
   }
   {
     match: "\\\\<squnion>"
-    name: "squnion.symbol"
+    name: "squnion.symbol.isabelle"
   }
   {
     match: "\\\\<Squnion>"
-    name: "Squnion.symbol"
+    name: "Squnion.symbol.isabelle"
   }
   {
     match: "\\\\<sqinter>"
-    name: "sqinter.symbol"
+    name: "sqinter.symbol.isabelle"
   }
   {
     match: "\\\\<Sqinter>"
-    name: "Sqinter.symbol"
+    name: "Sqinter.symbol.isabelle"
   }
   {
     match: "\\\\<setminus>"
-    name: "setminus.symbol"
+    name: "setminus.symbol.isabelle"
   }
   {
     match: "\\\\<propto>"
-    name: "propto.symbol"
+    name: "propto.symbol.isabelle"
   }
   {
     match: "\\\\<uplus>"
-    name: "uplus.symbol"
+    name: "uplus.symbol.isabelle"
   }
   {
     match: "\\\\<Uplus>"
-    name: "Uplus.symbol"
+    name: "Uplus.symbol.isabelle"
   }
   {
     match: "\\\\<noteq>"
-    name: "noteq.symbol"
+    name: "noteq.symbol.isabelle"
   }
   {
     match: "\\\\<sim>"
-    name: "sim.symbol"
+    name: "sim.symbol.isabelle"
   }
   {
     match: "\\\\<doteq>"
-    name: "doteq.symbol"
+    name: "doteq.symbol.isabelle"
   }
   {
     match: "\\\\<simeq>"
-    name: "simeq.symbol"
+    name: "simeq.symbol.isabelle"
   }
   {
     match: "\\\\<approx>"
-    name: "approx.symbol"
+    name: "approx.symbol.isabelle"
   }
   {
     match: "\\\\<asymp>"
-    name: "asymp.symbol"
+    name: "asymp.symbol.isabelle"
   }
   {
     match: "\\\\<cong>"
-    name: "cong.symbol"
+    name: "cong.symbol.isabelle"
   }
   {
     match: "\\\\<smile>"
-    name: "smile.symbol"
+    name: "smile.symbol.isabelle"
   }
   {
     match: "\\\\<equiv>"
-    name: "equiv.symbol"
+    name: "equiv.symbol.isabelle"
   }
   {
     match: "\\\\<frown>"
-    name: "frown.symbol"
+    name: "frown.symbol.isabelle"
   }
   {
     match: "\\\\<Join>"
-    name: "Join.symbol"
+    name: "Join.symbol.isabelle"
   }
   {
     match: "\\\\<bowtie>"
-    name: "bowtie.symbol"
+    name: "bowtie.symbol.isabelle"
   }
   {
     match: "\\\\<prec>"
-    name: "prec.symbol"
+    name: "prec.symbol.isabelle"
   }
   {
     match: "\\\\<succ>"
-    name: "succ.symbol"
+    name: "succ.symbol.isabelle"
   }
   {
     match: "\\\\<preceq>"
-    name: "preceq.symbol"
+    name: "preceq.symbol.isabelle"
   }
   {
     match: "\\\\<succeq>"
-    name: "succeq.symbol"
+    name: "succeq.symbol.isabelle"
   }
   {
     match: "\\\\<parallel>"
-    name: "parallel.symbol"
+    name: "parallel.symbol.isabelle"
   }
   {
     match: "\\\\<bar>"
-    name: "bar.symbol"
+    name: "bar.symbol.isabelle"
   }
   {
     match: "\\\\<plusminus>"
-    name: "plusminus.symbol"
+    name: "plusminus.symbol.isabelle"
   }
   {
     match: "\\\\<minusplus>"
-    name: "minusplus.symbol"
+    name: "minusplus.symbol.isabelle"
   }
   {
     match: "\\\\<times>"
-    name: "times.symbol"
+    name: "times.symbol.isabelle"
   }
   {
     match: "\\\\<div>"
-    name: "div.symbol"
+    name: "div.symbol.isabelle"
   }
   {
     match: "\\\\<cdot>"
-    name: "cdot.symbol"
+    name: "cdot.symbol.isabelle"
   }
   {
     match: "\\\\<star>"
-    name: "star.symbol"
+    name: "star.symbol.isabelle"
   }
   {
     match: "\\\\<bullet>"
-    name: "bullet.symbol"
+    name: "bullet.symbol.isabelle"
   }
   {
     match: "\\\\<circ>"
-    name: "circ.symbol"
+    name: "circ.symbol.isabelle"
   }
   {
     match: "\\\\<dagger>"
-    name: "dagger.symbol"
+    name: "dagger.symbol.isabelle"
   }
   {
     match: "\\\\<ddagger>"
-    name: "ddagger.symbol"
+    name: "ddagger.symbol.isabelle"
   }
   {
     match: "\\\\<lhd>"
-    name: "lhd.symbol"
+    name: "lhd.symbol.isabelle"
   }
   {
     match: "\\\\<rhd>"
-    name: "rhd.symbol"
+    name: "rhd.symbol.isabelle"
   }
   {
     match: "\\\\<unlhd>"
-    name: "unlhd.symbol"
+    name: "unlhd.symbol.isabelle"
   }
   {
     match: "\\\\<unrhd>"
-    name: "unrhd.symbol"
+    name: "unrhd.symbol.isabelle"
   }
   {
     match: "\\\\<triangleleft>"
-    name: "triangleleft.symbol"
+    name: "triangleleft.symbol.isabelle"
   }
   {
     match: "\\\\<triangleright>"
-    name: "triangleright.symbol"
+    name: "triangleright.symbol.isabelle"
   }
   {
     match: "\\\\<triangle>"
-    name: "triangle.symbol"
+    name: "triangle.symbol.isabelle"
   }
   {
     match: "\\\\<triangleq>"
-    name: "triangleq.symbol"
+    name: "triangleq.symbol.isabelle"
   }
   {
     match: "\\\\<oplus>"
-    name: "oplus.symbol"
+    name: "oplus.symbol.isabelle"
   }
   {
     match: "\\\\<Oplus>"
-    name: "Oplus.symbol"
+    name: "Oplus.symbol.isabelle"
   }
   {
     match: "\\\\<otimes>"
-    name: "otimes.symbol"
+    name: "otimes.symbol.isabelle"
   }
   {
     match: "\\\\<Otimes>"
-    name: "Otimes.symbol"
+    name: "Otimes.symbol.isabelle"
   }
   {
     match: "\\\\<odot>"
-    name: "odot.symbol"
+    name: "odot.symbol.isabelle"
   }
   {
     match: "\\\\<Odot>"
-    name: "Odot.symbol"
+    name: "Odot.symbol.isabelle"
   }
   {
     match: "\\\\<ominus>"
-    name: "ominus.symbol"
+    name: "ominus.symbol.isabelle"
   }
   {
     match: "\\\\<oslash>"
-    name: "oslash.symbol"
+    name: "oslash.symbol.isabelle"
   }
   {
     match: "\\\\<dots>"
-    name: "dots.symbol"
+    name: "dots.symbol.isabelle"
   }
   {
     match: "\\\\<cdots>"
-    name: "cdots.symbol"
+    name: "cdots.symbol.isabelle"
   }
   {
     match: "\\\\<Sum>"
-    name: "Sum.symbol"
+    name: "Sum.symbol.isabelle"
   }
   {
     match: "\\\\<Prod>"
-    name: "Prod.symbol"
+    name: "Prod.symbol.isabelle"
   }
   {
     match: "\\\\<Coprod>"
-    name: "Coprod.symbol"
+    name: "Coprod.symbol.isabelle"
   }
   {
     match: "\\\\<infinity>"
-    name: "infinity.symbol"
+    name: "infinity.symbol.isabelle"
   }
   {
     match: "\\\\<integral>"
-    name: "integral.symbol"
+    name: "integral.symbol.isabelle"
   }
   {
     match: "\\\\<ointegral>"
-    name: "ointegral.symbol"
+    name: "ointegral.symbol.isabelle"
   }
   {
     match: "\\\\<clubsuit>"
-    name: "clubsuit.symbol"
+    name: "clubsuit.symbol.isabelle"
   }
   {
     match: "\\\\<diamondsuit>"
-    name: "diamondsuit.symbol"
+    name: "diamondsuit.symbol.isabelle"
   }
   {
     match: "\\\\<heartsuit>"
-    name: "heartsuit.symbol"
+    name: "heartsuit.symbol.isabelle"
   }
   {
     match: "\\\\<spadesuit>"
-    name: "spadesuit.symbol"
+    name: "spadesuit.symbol.isabelle"
   }
   {
     match: "\\\\<aleph>"
-    name: "aleph.symbol"
+    name: "aleph.symbol.isabelle"
   }
   {
     match: "\\\\<emptyset>"
-    name: "emptyset.symbol"
+    name: "emptyset.symbol.isabelle"
   }
   {
     match: "\\\\<nabla>"
-    name: "nabla.symbol"
+    name: "nabla.symbol.isabelle"
   }
   {
     match: "\\\\<partial>"
-    name: "partial.symbol"
+    name: "partial.symbol.isabelle"
   }
   {
     match: "\\\\<flat>"
-    name: "flat.symbol"
+    name: "flat.symbol.isabelle"
   }
   {
     match: "\\\\<natural>"
-    name: "natural.symbol"
+    name: "natural.symbol.isabelle"
   }
   {
     match: "\\\\<sharp>"
-    name: "sharp.symbol"
+    name: "sharp.symbol.isabelle"
   }
   {
     match: "\\\\<angle>"
-    name: "angle.symbol"
+    name: "angle.symbol.isabelle"
   }
   {
     match: "\\\\<copyright>"
-    name: "copyright.symbol"
+    name: "copyright.symbol.isabelle"
   }
   {
     match: "\\\\<registered>"
-    name: "registered.symbol"
+    name: "registered.symbol.isabelle"
   }
   {
     match: "\\\\<hyphen>"
-    name: "hyphen.symbol"
+    name: "hyphen.symbol.isabelle"
   }
   {
     match: "\\\\<inverse>"
-    name: "inverse.symbol"
+    name: "inverse.symbol.isabelle"
   }
   {
     match: "\\\\<onequarter>"
-    name: "onequarter.symbol"
+    name: "onequarter.symbol.isabelle"
   }
   {
     match: "\\\\<onehalf>"
-    name: "onehalf.symbol"
+    name: "onehalf.symbol.isabelle"
   }
   {
     match: "\\\\<threequarters>"
-    name: "threequarters.symbol"
+    name: "threequarters.symbol.isabelle"
   }
   {
     match: "\\\\<ordfeminine>"
-    name: "ordfeminine.symbol"
+    name: "ordfeminine.symbol.isabelle"
   }
   {
     match: "\\\\<ordmasculine>"
-    name: "ordmasculine.symbol"
+    name: "ordmasculine.symbol.isabelle"
   }
   {
     match: "\\\\<section>"
-    name: "section.symbol"
+    name: "section.symbol.isabelle"
   }
   {
     match: "\\\\<paragraph>"
-    name: "paragraph.symbol"
+    name: "paragraph.symbol.isabelle"
   }
   {
     match: "\\\\<exclamdown>"
-    name: "exclamdown.symbol"
+    name: "exclamdown.symbol.isabelle"
   }
   {
     match: "\\\\<questiondown>"
-    name: "questiondown.symbol"
+    name: "questiondown.symbol.isabelle"
   }
   {
     match: "\\\\<euro>"
-    name: "euro.symbol"
+    name: "euro.symbol.isabelle"
   }
   {
     match: "\\\\<pounds>"
-    name: "pounds.symbol"
+    name: "pounds.symbol.isabelle"
   }
   {
     match: "\\\\<yen>"
-    name: "yen.symbol"
+    name: "yen.symbol.isabelle"
   }
   {
     match: "\\\\<cent>"
-    name: "cent.symbol"
+    name: "cent.symbol.isabelle"
   }
   {
     match: "\\\\<currency>"
-    name: "currency.symbol"
+    name: "currency.symbol.isabelle"
   }
   {
     match: "\\\\<degree>"
-    name: "degree.symbol"
+    name: "degree.symbol.isabelle"
   }
   {
     match: "\\\\<amalg>"
-    name: "amalg.symbol"
+    name: "amalg.symbol.isabelle"
   }
   {
     match: "\\\\<mho>"
-    name: "mho.symbol"
+    name: "mho.symbol.isabelle"
   }
   {
     match: "\\\\<lozenge>"
-    name: "lozenge.symbol"
+    name: "lozenge.symbol.isabelle"
   }
   {
     match: "\\\\<wp>"
-    name: "wp.symbol"
+    name: "wp.symbol.isabelle"
   }
   {
     match: "\\\\<wrong>"
-    name: "wrong.symbol"
+    name: "wrong.symbol.isabelle"
   }
   {
     match: "\\\\<acute>"
-    name: "acute.symbol"
+    name: "acute.symbol.isabelle"
   }
   {
     match: "\\\\<index>"
-    name: "index.symbol"
+    name: "index.symbol.isabelle"
   }
   {
     match: "\\\\<dieresis>"
-    name: "dieresis.symbol"
+    name: "dieresis.symbol.isabelle"
   }
   {
     match: "\\\\<cedilla>"
-    name: "cedilla.symbol"
+    name: "cedilla.symbol.isabelle"
   }
   {
     match: "\\\\<hungarumlaut>"
-    name: "hungarumlaut.symbol"
+    name: "hungarumlaut.symbol.isabelle"
   }
   {
     match: "\\\\<bind>"
-    name: "bind.symbol"
+    name: "bind.symbol.isabelle"
   }
   {
     match: "\\\\<then>"
-    name: "then.symbol"
+    name: "then.symbol.isabelle"
   }
   {
     match: "\\\\<some>"
-    name: "some.symbol"
+    name: "some.symbol.isabelle"
   }
   {
     match: "\\\\<hole>"
-    name: "hole.symbol"
+    name: "hole.symbol.isabelle"
   }
   {
     match: "\\\\<newline>"
-    name: "newline.symbol"
+    name: "newline.symbol.isabelle"
   }
   {
     match: "\\\\<comment>"
-    name: "comment.symbol"
+    name: "comment.symbol.isabelle"
   }
   {
     match: "\\\\<open>"
-    name: "open.symbol"
+    name: "open.symbol.isabelle"
   }
   {
     match: "\\\\<close>"
-    name: "close.symbol"
+    name: "close.symbol.isabelle"
   }
   {
     match: "\\\\<^here>"
-    name: "here.symbol"
+    name: "here.symbol.isabelle"
   }
   {
     match: "\\\\<^undefined>"
-    name: "undefined.symbol"
+    name: "undefined.symbol.isabelle"
   }
   {
     match: "\\\\<^noindent>"
-    name: "noindent.symbol"
+    name: "noindent.symbol.isabelle"
   }
   {
     match: "\\\\<^smallskip>"
-    name: "smallskip.symbol"
+    name: "smallskip.symbol.isabelle"
   }
   {
     match: "\\\\<^medskip>"
-    name: "medskip.symbol"
+    name: "medskip.symbol.isabelle"
   }
   {
     match: "\\\\<^bigskip>"
-    name: "bigskip.symbol"
+    name: "bigskip.symbol.isabelle"
   }
   {
     match: "\\\\<^item>"
-    name: "item.symbol"
+    name: "item.symbol.isabelle"
   }
   {
     match: "\\\\<^enum>"
-    name: "enum.symbol"
+    name: "enum.symbol.isabelle"
   }
   {
     match: "\\\\<^descr>"
-    name: "descr.symbol"
+    name: "descr.symbol.isabelle"
   }
   {
     match: "\\\\<^footnote>"
-    name: "footnote.symbol"
+    name: "footnote.symbol.isabelle"
   }
   {
     match: "\\\\<^verbatim>"
-    name: "verbatim.symbol"
+    name: "verbatim.symbol.isabelle"
   }
   {
     match: "\\\\<^theory_text>"
-    name: "theory_text.symbol"
+    name: "theory_text.symbol.isabelle"
   }
   {
     match: "\\\\<^emph>"
-    name: "emph.symbol"
+    name: "emph.symbol.isabelle"
   }
   {
     match: "\\\\<^bold>"
-    name: "bold.symbol"
+    name: "bold.symbol.isabelle"
   }
   {
     match: "\\\\<^sub>"
-    name: "sub.symbol"
+    name: "sub.symbol.isabelle"
   }
   {
     match: "\\\\<^sup>"
-    name: "sup.symbol"
+    name: "sup.symbol.isabelle"
   }
   {
     match: "\\\\<^bsub>"
-    name: "bsub.symbol"
+    name: "bsub.symbol.isabelle"
   }
   {
     match: "\\\\<^esub>"
-    name: "esub.symbol"
+    name: "esub.symbol.isabelle"
   }
   {
     match: "\\\\<^bsup>"
-    name: "bsup.symbol"
+    name: "bsup.symbol.isabelle"
   }
   {
     match: "\\\\<^esup>"
-    name: "esup.symbol"
+    name: "esup.symbol.isabelle"
   }
   {
     match: "\\\\<^file>"
-    name: "file.symbol"
+    name: "file.symbol.isabelle"
   }
   {
     match: "\\\\<^dir>"
-    name: "dir.symbol"
+    name: "dir.symbol.isabelle"
   }
   {
     match: "\\\\<^url>"
-    name: "url.symbol"
+    name: "url.symbol.isabelle"
   }
   {
     match: "\\\\<^doc>"
-    name: "doc.symbol"
+    name: "doc.symbol.isabelle"
   }
   {
     match: "\\\\<^action>"
-    name: "action.symbol"
+    name: "action.symbol.isabelle"
   }
 ]
 scopeName: "source.isabelle.theory"
