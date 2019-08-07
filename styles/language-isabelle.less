@@ -18,11 +18,6 @@
   width: 1ex;
 }
 
-.syntax--symbol.syntax--isabelle.syntax--longrightarrow,
-.syntax--symbol.syntax--isabelle.syntax--Longrightarrow {
-  width:3ex;
-}
-
 .syntax--isabelle.syntax--zero::before {
     width: 1ex;
     content: "\01d7ec";
@@ -818,10 +813,13 @@
     content: "\002192";
     visibility: visible;
 }
-.syntax--isabelle.syntax--longrightarrow::before {
+.syntax--isabelle.syntax--longrightarrow {
+  width: 3ex;
+  &::before {
     width: 1ex;
     content: "\0027f6";
     visibility: visible;
+  }
 }
 .syntax--isabelle.syntax--longlongrightarrow::before {
     width: 1ex;
@@ -848,15 +846,21 @@
     content: "\0021da";
     visibility: visible;
 }
+.syntax--isabelle.syntax--Rightarrow {
+    width: 2ex;
+}
 .syntax--isabelle.syntax--Rightarrow::before {
-    width: 1ex;
+    width: 2ex;
     content: "\0021d2";
     visibility: visible;
 }
-.syntax--isabelle.syntax--Longrightarrow::before {
+.syntax--isabelle.syntax--Longrightarrow {
+  width: 3ex;
+  &::before {
     width: 1ex;
     content: "\0027f9";
     visibility: visible;
+  }
 }
 .syntax--isabelle.syntax--Rrightarrow::before {
     width: 1ex;
@@ -868,10 +872,13 @@
     content: "\002194";
     visibility: visible;
 }
-.syntax--isabelle.syntax--longleftrightarrow::before {
-    width: 1ex;
-    content: "\0027f7";
-    visibility: visible;
+.syntax--isabelle.syntax--longleftrightarrow {
+  width: 3ex;
+  &::before {
+      width: 1ex;
+      content: "\0027f7";
+      visibility: visible;
+  }
 }
 .syntax--isabelle.syntax--Leftrightarrow::before {
     width: 1ex;
@@ -1082,6 +1089,9 @@
     width: 1ex;
     content: "\002227";
     visibility: visible;
+}
+.syntax--isabelle.syntax--And {
+  width: 2ex;
 }
 .syntax--isabelle.syntax--And::before {
     width: 1ex;
